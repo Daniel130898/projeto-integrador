@@ -19,6 +19,4 @@ if (($email == "admin@hotmail.com") && ($senha == "admin123")) {
   header("Location: indexPI.php");
 }
 
-
-
 ?>
