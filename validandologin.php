@@ -17,6 +17,6 @@ if (($email == "admin@hotmail.com") && ($senha == "admin123")) {
 }else {
   $_SESSION['LoginErro'] =  "Usuário e senha inválidos";
   header("Location: indexPI.php");
-}
+}//comentario
 
 ?>
