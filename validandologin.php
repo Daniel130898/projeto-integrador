@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_start();//outro comentario
 include "conexaoPI.php";
 
 if((isset($_POST['email'])) && (isset($_POSt['senha']))){
